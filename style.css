@@ -146,6 +146,7 @@ section {
         gap: 10px;
         /* padding-left: 200px; */
         padding: 0px;
+        justify-content: space-between;
     }
     .nav {
         flex-direction: column;
