@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    gap: 12px;
+}
+.logo-image {
+    width: 24px;
+    height: 24px;
+    background-color: yellow;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    color: #007bff;
+}
+
+section {
+    padding: 60px 20px;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    height: fit-content;
+}
+.plan {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.plan.lux {
+    background-color: #333;
+    color: #fff;
+}
+.plan.extra {
+    background-color: #ffc107;
+    color: #fff;
+}
+.plan h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.plan p {
+    margin: 10px 0;
+}
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+.plan ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.plan ul li img {
+    margin-right: 10px;
+}
+.plan ul li span {
+    margin-left: auto;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
