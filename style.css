@@ -133,6 +133,8 @@ section {
         flex-direction: column;
         align-items: center;
         gap: 12px;
+        width: 100%;
+        padding: 12px 0px 0px 0px;
     }
     .container-logo-icons {
         display: flex;
